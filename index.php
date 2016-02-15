@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
 
@@ -36,10 +36,10 @@
 
 <body id="page-top">
 
-<!-- FACEBOOK INTEGRATION-->
-<!--modifica fatta da pc-->
-
-<script>
+  <!-- FACEBOOK INTEGRATION-->
+  <!--modifica fatta da pc-->
+  
+  <script>
 function append(photos){
 	html='';
 	html+='<div class="row no-gutter">';
@@ -88,7 +88,7 @@ function append(photos){
       xfbml      : true,
       version    : 'v2.5'
     });
-    console.log(FB);
+    //console.log(FB);
     //myFacebookLogin();
 	
   };
@@ -105,9 +105,7 @@ function append(photos){
 // Only works after `FB.init` is called
 
 </script>
-
-
-
+  
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -144,9 +142,9 @@ function append(photos){
                     <li>
                         <a class="page-scroll" href="#services">I nostri prodotti</a>
                     </li>
-                    <li>
+                    <!--li>
                         <a class="page-scroll" href="#portfolio">Le ultime invenzioni</a>
-                    </li>
+                    </li-->
                     <li>
                         <a class="page-scroll" href="#contact">Contatti</a>
                     </li>
@@ -165,7 +163,7 @@ function append(photos){
                 <h1>Romagnami</h1>
                 <hr>
                 <p>Viale Ennio, 11 - Igea Marina (RN)<br><br>
-                <a onclick="$('#mymodal').modal()" class="btn btn-primary btn-xl page-scroll">Dove siamo</a><br><br>
+                <a href="https://maps.google.com?daddr=Igea+Marina+Viale+Ennio+11" class="btn btn-primary btn-xl page-scroll">Naviga</a><br><br>
                 <!--a onclick="myFacebookLogin()" class="btn btn-primary btn-xl page-scroll" id="fb-btn">Login con Facebook</a--></p>
 
             </div>
@@ -179,8 +177,7 @@ function append(photos){
                     <h2 class="section-heading">Chi Siamo</h2>
                     <hr class="light">
                     <p class="text-faded">
-                    Qui ci metterei una descrizione più o meno lunga, ma la farei finire invitando 
-                    a seguire la pagina Facebook</p>
+                    Seguici su Facebook</p>
                     <a  href="https://www.facebook.com/Romagnami-307688816030259" class="btn btn-default btn-xl wow bounceIn"><i class="fa fa-4x fa-facebook wow bounceIn text-primary"></i><br>
                     <div style="margin:0 auto" class="fb-like" 
                     data-href="https://www.facebook.com/Romagnami-307688816030259" 
@@ -198,7 +195,7 @@ function append(photos){
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">I nostri prodotti</h2>
+                    <h2 class="section-heading">I nostri Prodotti</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -207,30 +204,30 @@ function append(photos){
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                        <i class="fa fa-4x fa-cutlery wow bounceIn text-primary"></i>
+                        <h3>Da Asporto</h3>
+                        <p class="text-muted">Pasti veloci, gustosi e leggeri. Da noi o in spiaggia.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        <h3>A Domicilio</h3>
+                        <p class="text-muted">Durante tutto l'anno puoi continuare ad acquistare i nostri prodotti, e riceverli a casa tua.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                        <h3>Sempre Aggiornati</h3>
+                        <p class="text-muted">É fondamentale conoscere e far conoscere i nostri prodotti. Per questo siamo sempre aggiornati.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <h3>Preparato con Cura</h3>
+                        <p class="text-muted">Mettiamo la massima cura ed esperienza in quello che prepariamo.</p>
                     </div>
                 </div>
             </div>
@@ -246,10 +243,10 @@ function append(photos){
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Yogurt Gelato
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Sempre fresco e arricchito con i migliori ingredienti
                                 </div>
                             </div>
                         </div>
@@ -261,11 +258,9 @@ function append(photos){
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Ceramica
                                 </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                                <div class="project-name">Le migliori ceramiche di Faenza, rigorosamente originali e artigianali</div>
                             </div>
                         </div>
                     </a>
@@ -276,11 +271,9 @@ function append(photos){
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    frutta fresca
                                 </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                                <div class="project-name">Granite, Estratti, Frullati. Sempre con Frutta Fresca e di Stagione</div>
                             </div>
                         </div>
                     </a>
@@ -290,12 +283,8 @@ function append(photos){
                         <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                                <div class="project-category text-faded">succhi di frutta e bevande</div>
+                                <div class="project-name">Sempre biologici, sempre i migliori</div>
                             </div>
                         </div>
                     </a>
@@ -305,12 +294,8 @@ function append(photos){
                         <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                                <div class="project-category text-faded">stampe romagnole</div>
+                                <div class="project-name">Fatte a ruggine come da tradizione, dai migliori artigiani Romagnoli</div>
                             </div>
                         </div>
                     </a>
@@ -321,11 +306,9 @@ function append(photos){
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+                                    frutta secca
+                                ed essiccata</div>
+                                <div class="project-name">Ottima nel Gusto e per la Salute</div>
                             </div>
                         </div>
                     </a>
@@ -334,35 +317,36 @@ function append(photos){
         </div>
     </section>
 
-    <aside class="bg-dark">
+    <!--aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Free Download at Start Bootstrap!</h2>
                 <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
             </div>
         </div>
-    </aside>
+    </aside-->
 
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <h2 class="section-heading">Teniamoci in Contatto</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p>Il modo migliore per conoscerci é venire a trovarci, se non puoi farlo subito contattaci</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
+                <!--div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
                     <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
+                </div-->
+                <div class="col-lg-12 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <p><a href="mailto:romagnami@gmail.com">romagnami@gmail.com</a></p>
                 </div>
             </div>
         </div>
     </section>
-
+       <div style="height: 600px;" id="map">
+      </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -376,35 +360,38 @@ function append(photos){
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
-	<div class="modal fade" tabindex="-1" id="mymodal" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Mappa di Romagnami</h4>
-      </div>
-      <div class="modal-body">
-       <div style="height:400px" id="map">
-      </div>
-      <script>
+
+</body>
+
+     <script>
+	 var map;
+	 var myLatLng = {lat: 44.133208, lng: 12.483134};
       function initMap() {
   // Create a map object and specify the DOM element for display.
-  var map = new google.maps.Map(document.getElementById('map'), {
+
+  map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 44.133208, lng: 12.483134},
-    scrollwheel: true,
+    scrollwheel: false,
     zoom: 15
   });
 }
 </script>
- <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
-        async defer></script>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
-        <button type="button" class="btn btn-primary">Naviga</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-</body>
 
+	<!--google maps-->
+ 	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCZnrD4Oz_icKMUVaY46slLhxVXYzAbbho&callback=initMap"></script>
+	<!--marker with label-->
+    <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerwithlabel/src/markerwithlabel.js"></script>
+    <script>
+	
+  var image = '<i class="fa fa-map-marker fa-3x" style="color:rgba(148,1,28,.6);"></i>';
+  var marker = new MarkerWithLabel({
+    position: myLatLng,
+    //map: map,
+    //title: 'Romagnami',
+	icon: ' ',
+	labelContent: image,
+    labelAnchor: new google.maps.Point(22, 50)
+  });
+  marker.setMap(map);
+	</script>
 </html>
