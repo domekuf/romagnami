@@ -37,6 +37,7 @@
 <body id="page-top">
 
 <!-- FACEBOOK INTEGRATION-->
+<!--modifica fatta da pc-->
 
 <script>
 function append(photos){
